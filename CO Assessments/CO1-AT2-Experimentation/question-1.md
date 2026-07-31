@@ -7,13 +7,13 @@ the Home Agent (HA), Foreign Agent (FA), Correspondent Node (CN), Care-of Addres
 Registration Process, and Packet Tunneling.
 
 Analyze the communication process by identifying:
-. The purpose of each network component.
-. Points where packet delay or packet loss may occur.
-. The effect of node mobility on communication performance.
-. Possible improvements to reduce latency.
+- The purpose of each network component.
+- Points where packet delay or packet loss may occur.
+- The effect of node mobility on communication performance.
+- Possible improvements to reduce latency.
 
 Deliverables:
-. Figma (.fig) design
-. GitHub repository containing exported images/PDF and documentation (README).
+- Figma (.fig) design
+- GitHub repository containing exported images/PDF and documentation (README).
 
 Figma Prototype : https://www.figma.com/make/tSWdeNcvoXcafmPfFFbuam/Mobile-IP-Communication-Workflow?t=g2l7Kyf55LyjV7oC-20&fullscreen=1

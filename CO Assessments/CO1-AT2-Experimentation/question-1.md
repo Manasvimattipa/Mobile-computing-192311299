@@ -5,13 +5,15 @@ Design an interactive Figma prototype illustrating the complete workflow of Mobi
 when a Mobile Node moves from its Home Network to a Foreign Network. Your design should include
 the Home Agent (HA), Foreign Agent (FA), Correspondent Node (CN), Care-of Address (CoA),
 Registration Process, and Packet Tunneling.
+
 Analyze the communication process by identifying:
- The purpose of each network component.
- Points where packet delay or packet loss may occur.
- The effect of node mobility on communication performance.
- Possible improvements to reduce latency.
+-> The purpose of each network component.
+-> Points where packet delay or packet loss may occur.
+-> The effect of node mobility on communication performance.
+-> Possible improvements to reduce latency.
+
 Deliverables:
- Figma (.fig) design
- GitHub repository containing exported images/PDF and documentation (README).
+-> Figma (.fig) design
+-> GitHub repository containing exported images/PDF and documentation (README).
 
 Figma Prototype : https://www.figma.com/file/your-figma-link

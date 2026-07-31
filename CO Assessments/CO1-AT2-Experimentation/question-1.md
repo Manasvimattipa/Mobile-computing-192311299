@@ -16,4 +16,4 @@ Deliverables:
 -> Figma (.fig) design
 -> GitHub repository containing exported images/PDF and documentation (README).
 
-Figma Prototype : https://www.figma.com/file/your-figma-link
+Figma Prototype : https://www.figma.com/make/tSWdeNcvoXcafmPfFFbuam/Mobile-IP-Communication-Workflow?t=g2l7Kyf55LyjV7oC-20&fullscreen=1

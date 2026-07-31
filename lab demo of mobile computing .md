@@ -30,8 +30,18 @@ Experiment 10 : Create a visual representation in Figma showcasing the differenc
 https://www.figma.com/make/PaUF6KyKa2733UGCjKt1Xm/Visualize-Multiple-Access-Techniques?t=IOZPlPDjaWH50Lnt-20&fullscreen=1
 
 Experiment 11 : Design a wireframe for a mobile application that incorporates security measures using Figma.
+
 Experiment 12 : Use Figma to create an interactive diagram illustrating the evolution from 1G to 5G.
 https://www.figma.com/make/nact6uCfDiD4co8Mdwg7Wg/Interactive-5G-Evolution-Diagram?t=NGgQsLPy3SLS9C4c-20&fullscreen=1
 
 Experiment 13: Design an infographic in Figma comparing mobile communication and mobile computing
 https://www.figma.com/make/qmA6PGDaLVo8UmQbscsQZv/Design-infographic-comparison?t=6voPMsynYAnP26Gc-20&fullscreen=1
+
+Experiment 14 : Develop a flowchart in Figma explaining the operation of General Packet Radio Service
+https://www.figma.com/make/TDIWJzz0mrX8WeDIv354gL/GPRS-Operation-Flowchart?t=Llj8G20gp2G7StNu-20&fullscreen=1
+
+Experiment 15 : Design an interactive presentation in Figma explaining the issues in mobile IP.
+https://www.figma.com/make/urwcJG7HAlSTC1caGMCKlZ/Untitled?t=Llj8G20gp2G7StNu-20&fullscreen=1
+
+Experiment 16 : Develop a wireframe for a mobile application that addresses challenges related to ad hoc wireless networks using Figma.
+https://www.figma.com/make/4cWDLQTGz7WOXb9BMKvGAP/Untitled?t=cTyDqC96k7DaVNVA-20&fullscreen=1

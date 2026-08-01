@@ -10,3 +10,5 @@ Provide navigation between screens demonstrating different mobility scenarios.
 Deliverables:
 - Interactive prototype.
 - GitHub repository containing design files, exported prototype, and documentation.
+
+Figma Prototype : https://www.figma.com/make/RyY8vsw8rjaukzFBsP7mo5/Smart-Healthcare-Mobile-IP-Design?t=D6F1BF7QNMwYaVOD-20&fullscreen=1

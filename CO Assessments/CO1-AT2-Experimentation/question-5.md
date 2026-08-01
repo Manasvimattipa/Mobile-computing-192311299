@@ -1,0 +1,235 @@
+#html code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wireless Network Decision Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Wireless Network Decision Dashboard</h1>
+
+<div class="card">
+
+<label>Node Mobility</label>
+<select id="mobility">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+</select>
+
+<label>Infrastructure Availability</label>
+<select id="infra">
+<option>Available</option>
+<option>Not Available</option>
+</select>
+
+<label>Network Size</label>
+<select id="size">
+<option>Small</option>
+<option>Medium</option>
+<option>Large</option>
+</select>
+
+<label>Routing Complexity</label>
+<select id="routing">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+</select>
+
+<label>Energy Consumption Priority</label>
+<select id="energy">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+</select>
+
+<label>Reliability Requirement</label>
+<select id="reliability">
+<option>Low</option>
+<option>Medium</option>
+<option>High</option>
+</select>
+
+<button onclick="analyzeNetwork()">Analyze</button>
+
+</div>
+
+<div class="result">
+
+<h2>Recommendation</h2>
+
+<h3 id="network"></h3>
+
+<p id="reason"></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+#css
+body{
+
+font-family:Arial;
+background:#f2f6ff;
+margin:0;
+padding:30px;
+
+}
+
+.container{
+
+width:700px;
+margin:auto;
+
+}
+
+h1{
+
+text-align:center;
+color:#003366;
+
+}
+
+.card{
+
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+
+}
+
+label{
+
+display:block;
+margin-top:15px;
+font-weight:bold;
+
+}
+
+select{
+
+width:100%;
+padding:10px;
+margin-top:5px;
+
+}
+
+button{
+
+margin-top:20px;
+width:100%;
+padding:12px;
+font-size:18px;
+background:#0066cc;
+color:white;
+border:none;
+cursor:pointer;
+border-radius:5px;
+
+}
+
+button:hover{
+
+background:#004999;
+
+}
+
+.result{
+
+margin-top:25px;
+padding:20px;
+background:white;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+
+}
+
+#network{
+
+color:green;
+
+}
+
+#js
+function analyzeNetwork(){
+
+let mobility=document.getElementById("mobility").value;
+let infra=document.getElementById("infra").value;
+let size=document.getElementById("size").value;
+let routing=document.getElementById("routing").value;
+let energy=document.getElementById("energy").value;
+let reliability=document.getElementById("reliability").value;
+
+let recommendation="";
+let explanation="";
+
+
+// Ad Hoc Network
+
+if(infra=="Not Available"){
+
+recommendation="Ad Hoc Network (MANET)";
+
+explanation=
+"No fixed infrastructure is available. Devices communicate directly with each other. Suitable for disaster recovery, military operations, and temporary networks.";
+
+}
+
+
+// Mobile IP
+
+else if(mobility=="High" && infra=="Available"){
+
+recommendation="Mobile IP";
+
+explanation=
+"High node mobility requires maintaining continuous IP connectivity while moving across different networks.";
+
+}
+
+
+// Cellular
+
+else{
+
+recommendation="Cellular Network";
+
+explanation=
+"Fixed infrastructure is available with reliable base stations, making Cellular Networks suitable for large-scale communication.";
+
+}
+
+
+// Additional Analysis
+
+explanation+="\n\n";
+
+explanation+="Analysis:\n";
+
+explanation+="Node Mobility : "+mobility+"\n";
+explanation+="Infrastructure : "+infra+"\n";
+explanation+="Network Size : "+size+"\n";
+explanation+="Routing Complexity : "+routing+"\n";
+explanation+="Energy Priority : "+energy+"\n";
+explanation+="Reliability : "+reliability+"\n";
+
+document.getElementById("network").innerHTML=recommendation;
+
+document.getElementById("reason").innerText=explanation;
+
+}

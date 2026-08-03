@@ -5,112 +5,81 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Wireless Network Decision Dashboard</title>
-
 <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
 <div class="container">
-
 <h1>Wireless Network Decision Dashboard</h1>
-
 <div class="card">
-
 <label>Node Mobility</label>
 <select id="mobility">
 <option>Low</option>
 <option>Medium</option>
 <option>High</option>
 </select>
-
 <label>Infrastructure Availability</label>
 <select id="infra">
 <option>Available</option>
 <option>Not Available</option>
 </select>
-
 <label>Network Size</label>
 <select id="size">
 <option>Small</option>
 <option>Medium</option>
 <option>Large</option>
 </select>
-
 <label>Routing Complexity</label>
 <select id="routing">
 <option>Low</option>
 <option>Medium</option>
 <option>High</option>
 </select>
-
 <label>Energy Consumption Priority</label>
 <select id="energy">
 <option>Low</option>
 <option>Medium</option>
 <option>High</option>
 </select>
-
 <label>Reliability Requirement</label>
 <select id="reliability">
 <option>Low</option>
 <option>Medium</option>
 <option>High</option>
 </select>
-
 <button onclick="analyzeNetwork()">Analyze</button>
-
 </div>
-
 <div class="result">
-
 <h2>Recommendation</h2>
-
 <h3 id="network"></h3>
-
 <p id="reason"></p>
-
 </div>
-
 </div>
-
 <script src="script.js"></script>
-
 </body>
 </html>
 
 
 # css
-body{
 
+body{
 font-family:Arial;
 background:#f2f6ff;
 margin:0;
 padding:30px;
-
 }
-
 .container{
-
 width:700px;
 margin:auto;
-
 }
-
 h1{
-
 text-align:center;
 color:#003366;
-
 }
-
 .card{
-
 background:white;
 padding:25px;
 border-radius:10px;
 box-shadow:0 0 10px gray;
-
 }
 
 label{

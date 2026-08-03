@@ -11,4 +11,4 @@ Deliverables:
 - Interactive prototype.
 - GitHub repository containing design files, exported prototype, and documentation.
 
-Figma Prototype : https://www.figma.com/make/RyY8vsw8rjaukzFBsP7mo5/Smart-Healthcare-Mobile-IP-Design?t=D6F1BF7QNMwYaVOD-20&fullscreen=1
+# Figma Prototype :https://www.figma.com/proto/pxArdIQGoeUO75Ay3ALzBo/Untitled?node-id=2-9&p=f&t=bWk2KHVrZIQIQGoS-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1
